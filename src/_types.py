@@ -35,7 +35,7 @@ class Calculator():
             elif self.operation == Operation.DIVIDE:   self.result = self.value1 / self.value2
             self.__set_display()
         except ZeroDivisionError:
-            self.result = self.display = "Cannot devide by zero"
+            self.result = self.display = "Cannot divide by zero"
     
     def __set_display(self):
         self.display = f"{self.value1} {self.operation} {self.value2} = {self.result}"
