@@ -2,7 +2,7 @@
 # -*- coding: UTF-8 -*-
 
 import wx, gettext
-from _frames import BaseFrame, MainFrame
+from _frames import MainFrame
 from _types import Calculator
 
 class App(wx.App):
